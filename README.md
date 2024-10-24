@@ -55,5 +55,5 @@ Note: Every program expects an input number N from the keyboard through a prompt
 - <a href="./ICMPPinger/ICMPPingerClient.py">ICMPPingerServer.py</a><br>This is the client program that takes positive integer `N` as an input and tries sending `N` probes to the server. It also provides summary of Round Trip Time per each request and at the end it provides the metrics MIN RTT, MAX RTT, AVG RTT, Number of Packets Sent, Number of Packets Received, and Percentage Packets lost. This program handles `SIGINT` and `SIGTERM` signals. On sending one of these signals program gracefully shutdowns closing all the sockets  and provides summary of the results acquired so far. It also parses the ICMP error messages and prints it accordingly on the console.
 
 <pre>
-Note that all our findings have been reported in <a href="./Report.pdf">Report.pdf</a> file.
+All the findings from this project have been reported in <a href="./Report.pdf">Report.pdf</a> file.
 </pre>
